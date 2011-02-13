@@ -13,5 +13,39 @@
 #right {
 	float: right;
 }
+#logo-js {
+	height: 400px;
+}
+#left > div, #right > div {
+	background: url(blueprintbg.png);
+}
 
 /*** Logo ***/
+
+#logo {
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+#logo span {
+	position: absolute;
+}
+#logo .main {
+	background-color: #333;
+	width:	326px;
+	height:	326px;
+	left:	37px;
+	top:	37px;
+	-webkit-transform: rotate(45deg);
+	-webkit-border-radius: 100px;
+}
+#logo .main:before {
+	content: "";
+	position: absolute;
+	background-color: #F89938;
+	width:	260px;
+	height:	260px;
+	left:	34px;
+	top:	34px;
+	-webkit-border-radius: 70px;
+}
