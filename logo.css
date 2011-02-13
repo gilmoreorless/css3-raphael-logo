@@ -79,3 +79,14 @@
 	top:	31px;
 	-webkit-border-radius: 53px;
 }
+#logo .curve {
+	border-color: red;
+	border-style: solid;
+	border-width: 0 0 30px 0;
+	width:	271px;
+	height:	185px;
+	left:	118px;
+	top:	78px;
+	-webkit-border-bottom-right-radius: 100px;
+	-webkit-border-bottom-left-radius: 173px 215px;
+}
