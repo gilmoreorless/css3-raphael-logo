@@ -8,18 +8,18 @@
 	];
 	var logo = Raphael('logo-js', 400, 400);
 	logo.set(
-		logo.path(logoPaths[0]).attr({
-			fill: "#f89938",
-			stroke: "none"
-		}),
-		logo.path(logoPaths[1]).attr({
-			fill: "#39f",
-			stroke: "none"
-		}),
+//		logo.path(logoPaths[0]).attr({
+//			fill: "#f89938",
+//			stroke: "none"
+//		}),
+//		logo.path(logoPaths[1]).attr({
+//			fill: "#39f",
+//			stroke: "none"
+//		}),
 		logo.path(logoPaths[2]).attr({
 			fill: "#333",
 			stroke: "none"
-		})
+		}).scale(4, 4, 0, 0)
 	).scale(4, 4, 0, 0)
 //		.attr({opacity: 0.5});
 })();
