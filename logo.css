@@ -1,0 +1,17 @@
+/*** Page Layout ***/
+
+#wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 850px;
+}
+#left, #right {
+	float: left;
+	text-align: center;
+	width: 400px;
+}
+#right {
+	float: right;
+}
+
+/*** Logo ***/
