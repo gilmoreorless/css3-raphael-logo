@@ -40,11 +40,11 @@
 	position: absolute;
 }
 #logo .main {
-	border-width: 31px;
 	/*
-	border: 31px solid #333;
+	border-width: 31px;
 	background-color: #F89938;
 	*/
+	border: 31px solid green;
 	width:	255px;
 	height:	255px;
 	left:	42px;
@@ -53,11 +53,11 @@
 	-webkit-border-radius: 85px;
 }
 #logo .circle {
-	border-width: 31px;
 /*
+	border-width: 31px;
 	background-color: #333;
-	border:	31px solid red;
 */
+	border:	31px solid blue;
 	width:	105px;
 	height:	105px;
 	left:	117px;
@@ -75,16 +75,14 @@
 	-webkit-border-bottom-right-radius: 100px;
 	-webkit-border-bottom-left-radius: 173px 215px;
 }
-/*
 #logo .curve:after {
-	border-color: red;
+	border-color: yellow;
 	border-style: solid;
-	border-width: 30px 0 0;
-	width:	260px;
-	height:	260px;
+	border-width: 0 0 31px;
+	width:	255px;
+	height:	255px;
 	left:	-75px;
 	top:	0;
-	-webkit-border-top-left-radius: 400px;
-	-webkit-transform: rotate(-45deg);
+	-webkit-border-bottom-left-radius: 380px;
+	-webkit-transform: rotate(45deg);
 }
-*/
