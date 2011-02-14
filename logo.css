@@ -1,7 +1,7 @@
 /*** Page Layout ***/
 
 body {
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	margin: 0 auto;
 	text-align: center;
 	width: 850px;
@@ -47,7 +47,10 @@ p, li {
 	left:	42px;
 	top:	42px;
 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	border-radius: 85px;
 	-webkit-border-radius: 85px;
+	-moz-border-radius: 85px;
 }
 #logo .main:after {
 	background-color: #F89938;
@@ -55,7 +58,9 @@ p, li {
 	height:	255px;
 	left:	31px;
 	top:	31px;
+	border-radius: 53px;
 	-webkit-border-radius: 53px;
+	-moz-border-radius: 53px;
 }
 #logo .circle {
 	background-color: #39F;
@@ -64,7 +69,9 @@ p, li {
 	height:	105px;
 	left:	117px;
 	top:	11px;
+	border-radius: 83px;
 	-webkit-border-radius: 83px;
+	-moz-border-radius: 83px;
 }
 #logo .curve {
 	border-color: #333;
@@ -75,8 +82,12 @@ p, li {
 	left:	116px;
 	top:	78px;
 	clip: rect(0, 225px, 270px, -37px);
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 183px 222px;
 	-webkit-border-bottom-right-radius: 100px;
 	-webkit-border-bottom-left-radius: 183px 222px;
+	-moz-border-radius-bottomright: 100px;
+	-moz-border-radius-bottomleft: 183px 222px;
 }
 #logo .curve:after {
 	border-color: #333;
@@ -87,6 +98,9 @@ p, li {
 	left:	-79px;
 	top:	-34px;
 	clip: rect(90px, 245px, 270px, 0px);
+	border-bottom-left-radius: 335px 386px;
 	-webkit-border-bottom-left-radius: 335px 386px;
+	-moz-border-radius-bottomleft: 335px 386px;
 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
 }

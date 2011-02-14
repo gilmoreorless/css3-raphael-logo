@@ -12,7 +12,8 @@
 		logo of a javascript vector graphics library without using javascript or SVG seemed like a
 		wonderfully pointless way to spend a Sunday evening.
 	</p>
-	<p>The two main things I learned about CSS3 from this:</p>
+	<p>Chrome and Safari are the best browsers to view this in - Firefox sort of works but isn't perfect.</p>
+	<p>The three main things I learned about CSS3 from this:</p>
 	<ol>
 		<li>
 			WebKit doesn't handle border radius on a rotated element properly &ndash;
@@ -21,6 +22,10 @@
 		<li>
 			-webkit-background-clip should be set to "padding-box" to prevent an element's background
 			colour from bleeding out just past its border.
+		</li>
+		<li>
+			Gecko's rendering of partial borders with radius measurements tapers the borders to a point
+			while WebKit keeps a continuous border width. Therefore this logo is a bit more "artistic" in Firefox ;)
 		</li>
 	</ol>
 	<p>Also, I know the right-hand corner isn't <em>quite</em> right, but it's close enough for me.</p>
