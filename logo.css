@@ -17,7 +17,7 @@
 	height: 400px;
 }
 #left > div, #right > div {
-	/* background: url(blueprintbg.png); */
+	background: url(blueprintbg.png);
 }
 
 /*** Logo ***/
@@ -60,8 +60,9 @@
 	border-width: 0 0 30px 0;
 	width:	271px;
 	height:	185px;
-	left:	117px;
+	left:	116px;
 	top:	78px;
+	clip: rect(0, 225px, 270px, -37px);
 	-webkit-border-bottom-right-radius: 100px;
 	-webkit-border-bottom-left-radius: 183px 222px;
 }
@@ -71,8 +72,9 @@
 	border-width: 0 0 31px;
 	width:	255px;
 	height:	255px;
-	left:	-80px;
-	top:	-33px;
+	left:	-79px;
+	top:	-34px;
+	clip: rect(90px, 245px, 270px, 0px);
 	-webkit-border-bottom-left-radius: 335px 386px;
 	-webkit-transform: rotate(45deg);
 }
