@@ -20,6 +20,5 @@
 			fill: "#333",
 			stroke: "none"
 		}).scale(4, 4, 0, 0)
-	).scale(4, 4, 0, 0)
-//		.attr({opacity: 0.5});
+	).scale(4, 4, 0, 0);
 })();
